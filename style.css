@@ -172,26 +172,33 @@ footer {
     right: 10px;
     top: 40px;
   }
+
   .nav--links:hover {
-    text-align: center;
     position: absolute;
-    right: -40px;
-  }
-
-  nav:hover div.nav--links__a {
+    right: -30px;
     display: flex;
-    margin-top: 1rem;
     flex-direction: column;
-
-    right: 0px;
-    position: absolute;
+    align-items: flex-start;
+    top:20px;
+    position: relative;;
   }
-  nav:hover .hamburger i.hamburger {
+
+  
+  .nav--links:hover div.nav--links__a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:10px;
+  }
+  .nav--links:hover .hamburger i.hamburger {
     display: none;
   }
-  nav:hover .hamburger i.fa-square-xmark {
+  .nav--links:hover .hamburger i.fa-square-xmark {
     display: block;
     font-size: 2rem;
+    position:absolute;
+    top:-13px;
+    right:43px;
   }
 
   header h1 {
