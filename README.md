@@ -1,2 +1,2 @@
 # Animation sample with CSS and Html 
-[](https://animations-gs.netlify.app/)
+[You can cilick here](https://animations-gs.netlify.app/)
